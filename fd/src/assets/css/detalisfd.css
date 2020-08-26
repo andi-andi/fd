@@ -1,0 +1,36 @@
+.mt_detail_tit>h1{
+    font-size: 34px;
+    color: #666;
+    line-height: 1.5em;
+}
+.date{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #888;
+    font-family: 'Microsoft Yahei',Arial;
+}
+.mt_detail_con{
+    color: #666;
+    font-size: 16px;
+    font-family: "雅黑","宋体",arial,verdana,sans-serif;
+    line-height: 2;
+}
+.mt_detail_con>p{
+    margin: 0;
+}
+.lianjie{
+    line-height: 24px;
+    padding: 23px 0;
+    color: #444;
+    display: flex;
+    justify-content: space-between;
+}
+.lianjie a,.lianjie span{
+    font-size: 16px;
+    color: #444;
+    display: inline-block;
+}
+.lianjie a:hover{
+    color: red;
+    text-decoration: none;
+}

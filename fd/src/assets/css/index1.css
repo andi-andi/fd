@@ -1,0 +1,106 @@
+.contact_us{
+    margin-top: 100px;
+    width: 100%;
+    background:url(/images/banner_bg.jpg) center center;
+    color: #666666;
+    padding-top: 50px;
+}
+.contact_ct{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact_ct h2{
+    height: 57px;
+    font-size: 1em;
+    color: #666666;
+    background: url(/images/meun_bg1.png) no-repeat left top;
+    padding-left: 18px;
+    line-height: 50px;
+    font-weight: 600;
+}
+.contact_ul a{
+    color: #666666;
+    text-decoration: none !important;
+}
+.contact_ul li{
+    width: 50%;
+    line-height: 75px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.mtwx{
+    display: flex;
+}
+.mtwx div p{
+    line-height: 28px;
+}
+.mtwb{
+    display: flex;
+}
+.mtwb>div{
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+}
+.img_right{
+    margin-right: 16px;
+}
+.litile_img_right{
+    margin-right: 10px;
+}
+.contact_notes{
+    border-top: 1px solid #e5e5e5;
+    padding-top: 29px;
+    text-align: center;
+}
+.contact_title{
+    padding-bottom: 36px;
+    padding-left: 40px;
+}
+@media (max-width:575px) {
+    .font-12{
+        font-size: 12.8px;
+    }
+    .contact_ct h2{
+        font-size: 16px;
+    }
+    .img_right{
+        width: 47px;
+        height: 47px;
+    }
+    .mtwb>div{
+        line-height: 45px;
+    }
+    .contact_notes p{
+        font-size: 12.8px;
+        text-align: left;
+    }
+}
+@media (min-width:576px) {
+    .contact_ct h2{
+        font-size: 28px;
+    }
+    .img_right{
+        width: 78px;
+        height: 78px;
+    }
+    
+}
+.contact_row{
+    width: 500px;
+    padding-top: 38px;
+}
+.contact_row h2{
+    color: #666666;
+    font-size: 28px;
+    font-weight: 550;
+}
+.contact_row p{
+    color: #888888;
+}
+.contact_picture{
+    width: 580px;
+}
+.contact_picture img{
+    width: 100%;
+}

@@ -1,0 +1,65 @@
+
+/* 左右父元素*/
+.style_4{
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+/* 左右父元素 */
+/*左边div*/
+.style_1{
+    height: 57px;
+    color: #666666;
+    font-size: 28px;
+    line-height: 50px;
+}
+.style_2>li{
+    text-decoration: none;
+    line-height: 48px;
+    font-size: 18px;
+    color: #666;
+    transition: all 0.2s;
+}
+.textred{
+    color: red !important;
+}
+.style_2>li:hover{
+    color: red;
+    cursor: pointer;
+}
+/*左边div结束*/
+/* 右边div */
+.style_3{
+    border-left: 1px solid #E0E0E0;
+    padding-left: 50px;
+}
+.style_3>p{
+    font-size: 18px;
+    color: #888888;
+    line-height: 40px;
+}
+/* 6.管理公告 */
+.style_3>ul>li{
+    padding: 15px 0;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+}
+.style_3>ul>li>a{
+    color: #888888;
+    text-decoration: none;
+    float: left;
+    font-size: 18px;
+    width: 66%;
+    height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.style_3>ul>li:hover>a,.style_3>ul>li:hover{
+    color: red;
+}
+@media (max-width:575px) {
+    .text-center-center{
+        text-align: center !important;
+    }
+}
